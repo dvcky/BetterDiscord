@@ -12,6 +12,10 @@ div[class^="chat-"] {
     z-index: 0;
 }
 
+div[class^="chat-"] > section[class^="title-"] {
+    width: calc(100% - 60px);
+}
+
 div[class^="chat-"] > div[class^="wrapper-"] {
     width: calc(100% - 60px);
 }
