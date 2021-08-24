@@ -15,3 +15,4 @@ If you download through BetterDiscord's official theme page or my repository, yo
 3. Click "Themes"
 4. Click "Open Themes Folder" (This should open the folder that you need to place the file you downloaded in, place the file there)
 5. Click the toggle for the now-visible theme in Discord. Congratz, you did it!
+[Go Back](https://github.com/dvcky/BetterDiscord)
