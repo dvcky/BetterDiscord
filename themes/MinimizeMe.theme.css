@@ -55,6 +55,21 @@ div[class^="notice"] {
     width: calc(100% - 30px);
 }
 
+div[class^="nowPlayingColumn-"] {
+    height: 100%;
+    position: absolute;
+    right: -210px;
+    transition: var(--delay);
+} div[class^="nowPlayingColumn-"]:hover {
+    right: 0px;
+}
+
+div[class^="peopleColumn-"] {
+    height: 100%;
+    position: absolute;
+    width: calc(100% - 150px);
+}
+
 section[class^="searchResultsWrap-"] {
     height: 100%;
     position: absolute;
