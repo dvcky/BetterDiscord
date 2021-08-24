@@ -1,4 +1,4 @@
-# MinimizeMe
+# MinimizeMe!
 ![](https://github.com/dvcky/BetterDiscord/raw/master/themes/MinimizeMe/MinimizeMe.gif)
 
 Minimizes sidebars for more screen real-estate. Helpful for people that are using vertical screens, or simply just want more of the chat to be shown most of the time. Should be "layer-able" with other themes, given that they don't mess with the size or positioning of the sidebars.
