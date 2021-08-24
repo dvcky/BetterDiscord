@@ -1,3 +1,4 @@
 # BetterDiscord Plugins
 N/A
-[Go back](https://github.com/dvcky/BetterDiscord)
+
+[Go Back](https://github.com/dvcky/BetterDiscord)
