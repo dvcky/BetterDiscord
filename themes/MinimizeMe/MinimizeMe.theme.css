@@ -4,11 +4,11 @@
     --delay: 0.36s;
 }
 
-div[class^="avatarWrapper-"] {
+[class^="avatarWrapper-"] {
     margin-left: 8px;
 }
 
-div[class^="chat-"] {
+[class^="chat-"] {
     height: 100%;
     left: 60px;
     position: absolute;
@@ -16,68 +16,54 @@ div[class^="chat-"] {
     z-index: 0;
 }
 
-div[class^="chat-"] > section[class^="title-"] {
+[class^="chat-"] > [class^="title-"] {
     width: calc(100% - 60px);
 }
 
-div[class^="chat-"] > div[class^="wrapper-"] {
+[class^="chat-"] > [class^="wrapper-"] {
     width: calc(100% - 60px);
 }
 
-main[class^="chatContent-"] {
+[class^="chatContent-"] {
     height: 100%;
     position: absolute;
     width: calc(100% - 120px);
-} main[class^="chatContent-"]:only-child {
+} [class^="chatContent-"]:only-child {
     width: calc(100% - 60px);
 }
 
-div[class^="content-"] div[class^="sidebar-"] {
+[class^="content-"] [class^="sidebar-"] {
     transition: var(--delay);
     width: 60px;
     z-index: 1;
-} div[class^="content-"] div[class^="sidebar-"]:hover {
+} [class^="content-"] [class^="sidebar-"]:hover {
     width: 240px;
 }
 
-div[class^="membersWrap-"] {
+[class^="membersWrap-"] {
     height: 100%;
     position: absolute;
     right: -120px;
     transition: var(--delay);
-} div[class^="membersWrap-"]:hover {
+} [class^="membersWrap-"]:hover {
     right: 60px;
 }
 
-div[class^="notice"] {
+[class^="notice"] {
     border-radius: 0;
     position: absolute;
     width: calc(100% - 30px);
 }
 
-div[class^="nowPlayingColumn-"] {
-    height: 100%;
-    position: absolute;
-    right: -210px;
-    transition: var(--delay);
-} div[class^="nowPlayingColumn-"]:hover {
-    right: 0px;
-}
-
-div[class^="peopleColumn-"] {
-    height: 100%;
-    position: absolute;
-    width: calc(100% - 150px);
-}
-
-section[class^="searchResultsWrap-"] {
+[class^="searchResultsWrap-"] {
     height: 100%;
     position: absolute;
     right: 60px;
 }
 
-div[class^="sidebar-"] div[class^="children-"] {
+[class^="sidebar-"] [class^="children-"] {
     opacity: 0;
-} div[class^="sidebar-"]:hover div[class^="children-"] {
+    transition: var(--delay);
+} [class^="sidebar-"]:hover [class^="children-"] {
     opacity: 1;
 }
