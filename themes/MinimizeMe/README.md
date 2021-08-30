@@ -4,7 +4,7 @@
 Minimizes sidebars for more screen real-estate. Helpful for people that are using vertical screens, or simply just want more of the chat to be shown most of the time. Should be "layer-able" with other themes, given that they don't mess with the size or positioning of the sidebars.
 
 ## Changelog
-**v1.3.1:** Added "Active Now" sidebar, fixed server channel list bug, and added "delay" variable that user can change if they wish.
+**v1.3.1:** Fixed server channel list bug and missing classes. Added "delay" variable that user can change if they wish.
 
 ## Installation
 Either install through [ThemeRepo]()(TBD), [BetterDiscord's official theme page]()(TBD), or [manually through my repository](https://raw.githubusercontent.com/dvcky/BetterDiscord/master/themes/MinimizeMe/MinimizeMe.theme.css).
