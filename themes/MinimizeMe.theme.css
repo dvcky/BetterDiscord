@@ -4,10 +4,6 @@
     --delay: 0.36s;
 }
 
-div[class^="avatarWrapper-"] {
-    margin-left: 8px;
-}
-
 div[class^="chat-"] {
     height: 100%;
     left: 60px;
@@ -40,12 +36,12 @@ div[class^="content-"] div[class^="sidebar-"] {
     width: 240px;
 }
 
-div[class^="membersWrap-"] {
+aside[class^="membersWrap-"] {
     height: 100%;
     position: absolute;
     right: -120px;
     transition: var(--delay);
-} div[class^="membersWrap-"]:hover {
+} aside[class^="membersWrap-"]:hover {
     right: 60px;
 }
 
@@ -71,6 +67,12 @@ div[class^="peopleColumn-"] {
 }
 
 section[class^="searchResultsWrap-"] {
+    height: 100%;
+    position: absolute;
+    right: 60px;
+}
+
+aside[class^="profilePanel-"] {
     height: 100%;
     position: absolute;
     right: 60px;
